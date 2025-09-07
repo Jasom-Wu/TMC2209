@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DEMO"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\stm32cubemx\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DEMO">
+				<Option output="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/DEMO.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H723xx"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/User"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Core/Inc"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Drivers/CMSIS/Include"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/include"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/include-fixed"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 DEMO"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DEMO/fast">
+				<Option output="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/DEMO.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H723xx"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/User"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Core/Inc"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/../../Drivers/CMSIS/Include"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/include"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/include-fixed"/>
+					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 DEMO/fast"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/gpio.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/main.cpp">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/memorymap.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/stm32h7xx_hal_msp.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/stm32h7xx_hal_timebase_tim.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/stm32h7xx_it.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/syscalls.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/sysmem.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/system_stm32h7xx.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/tim.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Core/Src/usart.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/User/TMC2209.cpp">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/User/TMC2209.hpp">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/User/gpio_bitbang_uart.cpp">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/User/gpio_bitbang_uart.hpp">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/startup_stm32h723xx.s">
+			<Option target="DEMO"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/gcc-arm-none-eabi.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/TMC2209/FIRMWARE/DEMO/cmake/stm32cubemx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake\stm32cubemx\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
